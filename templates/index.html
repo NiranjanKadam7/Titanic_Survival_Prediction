@@ -1,0 +1,88 @@
+<html>
+    <head>
+
+
+        <title> Titanic Classification Problem</title>
+        <style >
+        
+        form{
+          text-align: center;
+        }
+        input[type=Submit]{
+          background-color: green;
+          color: white;
+          width: 80px
+        }
+        input{
+          width: 50%
+        }
+        select{
+          width: 50%
+        }
+        label{
+          font-size: 20px;
+          display :inline-block;
+          width :300px;
+          text-align: right;
+        }
+        </style>
+        </head> 
+<body>
+<centre><h1> RMS Titanic Survival Prediction : {{results}} </h1></centre>
+
+<form action = "{{url_for ('predict')}}" method = "POST">
+
+<label for = 'fname'>Name</label>
+<input type = 'text' , id = 'fname', required = 'required' , placeholder="Enter the name of Passenger">
+
+<br></br>
+
+<label for = 'pclass'>Passenger Class</label>
+<select  id="pclass" , name = 'pclass'>
+    <option value="1">First</option>
+    <option value="2">Second</option>
+    <option value="3">Third</option>
+</select>
+<br></br>
+<label for="Age">Age</label>
+<input type="number" id="Age" name="age" required = 'required' placeholder="Enter Age"></input>
+
+<br></br>
+<label for = 'sex'>Sex</label>
+<select id = 'sex', name = 'sex'>
+    <option value = "0">Female</option>
+    <option value = "1">Male</option>
+</select>
+<br></br>
+
+<label for = 'SibSp'>No of siblings on Board</label>
+<select id = 'SibSp' , name = 'SibSp'>
+    <option value = "1">Yes</option>
+    <option value = "0">No</option>
+</select>
+
+<br></br>
+
+<label for ='Parch'>No of parents on Board</label>
+<input type = 'number' , id = 'Parch' , name = 'Parch' , required = 'required' , placeholder = 'Enter the number of parents on Board'>
+</input>
+
+<br></br>
+
+<label for = 'fare'>Fare</label>
+<input type = 'number', id = 'fare' , name = 'fare' , required = 'required' , placeholder = ' Enter the Fare'></input>
+<br></br>
+
+<label for = 'embarked'>Embarked</label>
+<select id ='embarked' , name = 'embarked'>
+    <option value="1">S</option>
+    <option value="2">C</option>
+    <option value="3">Q</option>
+</select>
+<br></br>
+
+
+
+<input type = 'SUBMIT' , for = 'predict'>
+</body>
+</html>
