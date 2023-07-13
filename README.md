@@ -32,6 +32,8 @@ Dataset link -
 
  - Passanger Survival according to Gender
 
+![Screenshot (454)](https://github.com/NiranjanKadam7/Titanic_Survival_Prediction/assets/107809278/be3809f7-6419-4084-9d49-76e857528762)
+
 
 
 
