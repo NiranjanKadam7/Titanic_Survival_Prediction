@@ -20,7 +20,7 @@ Dataset link -
  - Sklearn
 ## Files
  - Titanic_Survival_Pred.ipynb: Google colab conntain python code, documentation, Visualization
- - Titatnic_train_data.csv: Training Dataset
+ - TitatnicTrainData.csv: Training Dataset
  - app.py: Flask API file
  - index.html
 
