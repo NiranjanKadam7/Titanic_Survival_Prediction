@@ -24,6 +24,14 @@ Dataset link -
  - app.py: Flask API file
  - index.html
 
+## ScreenShots 
+ - Passangers Surviaval Count
+
+![Screenshot (453)](https://github.com/NiranjanKadam7/Titanic_Survival_Prediction/assets/107809278/8a3cbf16-1f09-4fad-9f97-2eff4c0a9854)
+
+
+ - Passanger Survival according to Gender
+
 
 
 
