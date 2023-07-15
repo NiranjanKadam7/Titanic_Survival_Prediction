@@ -1,7 +1,7 @@
 # **Titanic_Survival_Prediction**
 I started this project to participate in competition on Kaggle.This is machine learning project and aim is to predict what sort of people likely to the survive.The dataset is imported by kaggle platform.
 
-Kaggle Leaderboard Rank -  3482/16108
+Kaggle Leaderboard Rank -  3461/16108
 
 
 
